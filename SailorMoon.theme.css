@@ -1,0 +1,203 @@
+/**
+ * @name GGO Kirito
+ * @author VaporousCreeper
+ * @version 1.2.X
+ * @description A theme with Kirito and Deathgun fighting in GGO (Gun Gale Online)
+ * @source https://github.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/tree/master/Themes/GGO_Kirito
+ */
+
+@import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css');
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
+
+:root{
+    /*--background: url('https://content4.coedcherry.com/twistys/186962/15.jpg');
+    background-size:cover;
+    background-position:center;
+    */
+    --activetext-colour: white;
+
+    --primary1-colour: var(--main);
+    --primary2-colour: rgba(0, 0, 0, 0.8);
+    --primary3-colour: rgb(59, 59, 59, 0);
+
+    --secondary1-colour: rgba(50,50,50,0);
+    --secondary2-colour: rgba(100,100,100);
+    --secondary3-colour: rgba(0,0,0,0.8);
+    --main: #6D5CA8;
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0));
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0));
+}
+*{
+    font-family: Helvetica;
+}
+.content-yTz4x3{
+    background-image: url("https://wallpaperaccess.com/full/869910.gif");
+    background-size: cover;
+    background-position:center;
+}
+.animatedContainer-1NSq4T{
+    display:none;
+}
+.message-username-927577483220516934{
+    color: yellow;
+}
+#app-mount .container-1r6BKw{
+    background-color: rgba(0,0,0)
+}
+.hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
+    background-color: rgba(0,0,0);
+}
+#app-mount .panels-j1Uci_{
+    background-color: rgba(0,0,0);
+    border-radius: 15px;
+}
+.sidebar-2K8pFh{
+    background-color: rgba(0,0,0);
+}
+.typeMacOS-3EmCyP.titleBar-AC4pGV{
+    background-color: rgba(0,0,0);
+}
+.container-2lgZY8{
+    background-color:black;
+}/*
+.container-2wlB3z{
+    display:none;
+}*/
+.childWrapper-anI2G9{
+    background-image:url("https://media3.giphy.com/media/a6pzK009rlCak/200.gif");
+    width:48px;
+    height:48px;
+    background-size: cover;
+    background-position: center;
+}
+#app-mount .containerDefault-3tr_sE{
+    margin-top:0;
+}
+.guildSeparator-nWMCrR{
+    background-color: rgba(100,100,100);
+    margin:8px 0 8px 0;
+}
+.homeIcon-AaowEC{
+    display:none;
+}
+#bd-pub-button{
+    color:transparent;
+    position: relative;
+    pointer-events: none;
+}
+#bd-pub-button:hover{
+    display:none;
+    transition:none;
+}
+#bd-pub-button::after{
+    content:"Anime!";
+    border-radius: 4px;
+    background-color: var(--main);
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition: background-color .15s ease-out,color .15s ease-out;
+}
+#bd-pub-li{
+    margin:0;
+}
+svg path{
+    fill:var(--main);
+}
+#channels > div > div:nth-child(1){
+    display:none;
+}
+.button-1w5pas path{
+    stroke:var(--main);
+    fill:none;
+}
+.button-1w5pas path[d="M0 0h18v18H0"]{
+    display:none;
+}
+#app-mount .wrapperHover-1GktnT, #app-mount .mention{
+    color:yellow;
+}
+span [role="button"]{
+    color:#CF3E22 !important;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(3) > div:nth-child(4) > div > div:nth-child(2) > div > svg > foreignObject > div > div > div > div{
+    display:none;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(3) > div:nth-child(4) > div > div:nth-child(2) > div > svg > foreignObject > div > div > div{
+    visibility: hidden;
+    position:relative;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div:nth-child(3) > div:nth-child(4) > div > div:nth-child(2) > div > svg > foreignObject > div > div > div::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: url("https://www.icegif.com/wp-content/uploads/icegif-2013.gif");
+    background-position: center;
+    background-size: cover;
+    visibility:visible;
+}
+.item-2hkk8m{
+    background-color: var(--main);
+}
+.avatar-SmRMf2 .wrapper-3t9DeA svg{
+    display:none;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-3baos1 > div.avatarWrapper-2yR4wp > div > svg > foreignObject > div > img{
+    content:url("https://cdn.discordapp.com/avatars/594762606183579648/a_21b823c16ece0f4ba686600160bcdcd0.gif?size=160");
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.children-19S4PO > div.topic-TCb_qw.expandable-9fI_e3{
+    display:none;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.children-19S4PO > h3{
+    text-transform: uppercase;
+}
+#app-mount .wrapper-3NnKdC{
+    background-color: transparent;
+}
+#popout_4874 > div > div{
+    background-color: var(--main) !important;
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > form > div:nth-child(1) > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er{
+    position:relative;
+    top:16px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px 5px black ;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss{
+    background-color:rgba(0,0,0,0);
+}
+.markup-2BOw-j{
+    color:white;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > main > div.messagesWrapper-1sRNjr.group-spacing-16 > div{
+    background-color: rgba(0,0,0,0.5);
+}
+.unreadRelevant-ERJWgN{
+    background-color: var(--main) !important;
+}
+.icon-27yU2q, .closedFolderIconWrapper-1I9YfS > div, #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav > ul > div.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih > div.tutorialContainer-11ICd5 > div:nth-child(1) > div.listItemWrapper-2MsAsM > div > svg > foreignObject > div > div{
+    border-radius: 16px;
+    z-index:100;
+}
+.layer-v9HyYc{
+    background-color: var(--main);
+    border-radius: 16px;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div.content-yTz4x3 > div{
+    display:none;
+}
